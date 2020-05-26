@@ -13,12 +13,12 @@ echo IP ADDRESS?
 read varip
 
 ##### PACOTE BASICO ######
-apt-get update -y
-apt-get upgrade -y
-apt-get -y install epel-release
+yum update -y
+yum upgrade -y
+yum -y install epel-release
 
 echo "INSTALADO PACOTE BASICO PARA O SISTEMA"
-apt-get -y install \
+yum -y install \
     vim gcc unzip wget nss git dnf tcsh \
     gcc gcc-c++ make autoconf automake binutils bison \
     flex gcc gcc-c++ gettext \
@@ -26,7 +26,7 @@ apt-get -y install \
     redhat-rpm-config rpm-build rpm-sign \
     ctags elfutils indent patchutils
 
-apt-get -y install \
+yum -y install \
     mesa-libGL mesa-libGL-devel kernel-devel \
     ntfs-3g.x86_64 nss dkms snapd \
     ansible libselinux-python vlc smplayer \
