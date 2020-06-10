@@ -2,4 +2,4 @@ wget http://192.168.8.7/app/scripts/zabbix/za_centos6.sh
 wget http://192.168.8.7/app/scripts/zabbix/za_centos7.sh
 wget http://192.168.8.7/app/scripts/zabbix/za_centos8.sh
 wget http://192.168.8.7/app/scripts/zabbix/za_debian.sh
-wget 
+wget http://192.168.8.7/app/scripts/automation/mail_zfs_status_advisor_install.sh
